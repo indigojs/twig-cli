@@ -1,0 +1,24 @@
+{
+  "name": "twig-cli",
+  "version": "0.1.0",
+  "description": "Render Twig files from CLI",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indigojs/twig-cli.git"
+  },
+  "author": "Márk Sági-Kazár <mark.sagikazar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indigojs/twig-cli/issues"
+  },
+  "homepage": "https://github.com/indigojs/twig-cli",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "glob": "^5.0.14",
+    "twig": "^0.8.2"
+  },
+  "bin": {
+    "twig": "./index.js"
+  }
+}
